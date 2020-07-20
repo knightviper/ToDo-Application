@@ -4,7 +4,7 @@ import classnames from 'classnames'
 import { FilterLink } from './FilterLink'
 import styles from './index.scss'
 
-let taskID = 0
+let taskID = 0;
 
 const getVisibleTodos = (todos, filter) => {
   switch (filter) {
