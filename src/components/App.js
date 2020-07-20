@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { connect } from 'react-redux'
+import styles from './index.scss'
 import classnames from 'classnames'
 import { FilterLink } from './FilterLink'
-import styles from './index.scss'
 
 let taskID = 0
 
