@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { connect } from 'react-redux'
 import classnames from 'classnames'
 import { FilterLink } from './FilterLink'
-import styles from './index.scss'
+import * as styles from './index.modules.scss'
 
 let taskID = 0
 
@@ -24,7 +24,7 @@ const App = ({ todos, visibilityFilter, dispatch }) => {
   const updateInput = (e) => {
     setTask(e.target.value)
   }
-  console.log('Hello')
+
   const addTask = () => {
     dispatch({
       type: 'ADD_TODO',

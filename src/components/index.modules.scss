@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.list {
+  text-decoration: line-through;
+}
